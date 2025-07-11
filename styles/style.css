@@ -158,20 +158,22 @@ nav{
 }
 .touch-section-right-input{
     width: 497px;
-    height: 70px;
+    height: 50px;
     padding-left: 32px;
     border-radius: 10px;
     padding: 10px 32px;
     display: block;
     margin-bottom: 10px ;
+    border: 1px solid white;
 }
 .touch-section-right-message{
     width: 497px;
     height: 135px;
     border-radius: 10px;
-    padding: 10px 32px;
+    padding: 15px 32px;
     display: block;
     margin-bottom: 10px ;
+     border: 1px solid white;
 }
 .touch-section-right-button{
     width: 560px;
@@ -230,7 +232,7 @@ nav{
 .user-feedback-review-profile{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 16px;
     margin-top: -10px;
 }
 .user-feedback-title{
@@ -245,6 +247,7 @@ nav{
     margin-bottom: 0px;
     font-size: 16px;
     font-weight: 400px;
+    margin-top: 28px;
 }
 .review-date{
     margin-top: 5px;
