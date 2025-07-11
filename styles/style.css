@@ -15,6 +15,10 @@
 body{
     background-color: rgba(214, 221, 237, 1);
 }
+body button:hover{
+  background-image: linear-gradient(to right,#FF12DC,#FFB912);
+  font-size: 15px;
+}
 
   /* shared style */
   .color-1{
@@ -180,6 +184,10 @@ nav{
     color: #FFFFFF;
 
 }
+.touch-section-right-button:hover{
+  background-image: linear-gradient(to right,#FF12DC,#FFB912);
+  font-size: 20px;
+}
 .touch-section-flex{
     display: flex;
     justify-content: center;
@@ -243,4 +251,40 @@ nav{
     font-size: 16px;
     font-weight: 400px;
     color: #B3B3B3;
+}
+/* footer section */
+.footer{
+    width: 1440px;
+    height: 428px;
+    background-color: #FFFFFF;
+    margin: 0px auto;
+  
+}
+.website-logo1{
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.footer-subtitle{
+    font-size: 16px;
+    font-weight: 600px;
+    color: #8987A1;
+    width: 531px;
+}
+.footer-details{
+      padding: 70px 454px 0px;
+      text-align: center;
+}
+.footer-container ul{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+.footer-container ul li{
+    list-style: none;
+    font-size: 16px;
+}
+.footer-container ul li a{
+       text-decoration: none;
+       color: #8987A1;
 }
